@@ -1,6 +1,8 @@
 numpy.js
 ========
 
+[This is part of Mozilla's collaborate project](http://collaborate.mozillascience.org/projects/hpdataVis).
+
 This is a *very basic* NumPy-like JavaScript library. It is required by our Python->JavaScript translator. Written in vanilla JavaScript, it aims at supporting a minimal set of routines for the most common use-cases in numerical computing. Eventually, the goal is to have a translator that takes relatively simple Python/NumPy functions and translates them to JavaScript. Typically, these functions will be interactivity functions (like callback functions reacting to mouse movements, key strokes...) and emitting GLIR (OpenGL) commands to update the visualization.
 
 The first step here is to look at @mikolalysenko's [ndarray](https://github.com/mikolalysenko/ndarray) library (MIT license) and see if we can reuse some of the code. Otherwise, we can as well start from scratch.
