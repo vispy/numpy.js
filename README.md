@@ -7,6 +7,7 @@ This is a *very basic* NumPy-like JavaScript library. It is required by our Pyth
 
 The first step here is to look at @mikolalysenko's [ndarray](https://github.com/mikolalysenko/ndarray) library (MIT license) and see if we can reuse some of the code. Otherwise, we can as well start from scratch.
 
+For high performance, we have to use TypedArrays, ArrayBuffers, and DataViews.
 
 ## Features
 
